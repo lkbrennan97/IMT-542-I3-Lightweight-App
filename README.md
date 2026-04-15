@@ -35,3 +35,8 @@ Their JSON example:
 </artists>
 
 ## Need to then get data source for where artists are from to plot onto country of origin
+
+## The MusicBrainz Method:
+The LastFM API provides an mbid (MusicBrainz ID) for most artists. You can use the MusicBrainz API (via the musicbrainzngs Python library) to look up that ID.
+
+    Logic: LastFM MBID → MusicBrainz API → artist['area']['name'].
