@@ -1,8 +1,9 @@
 # IMT-542-I3-Lightweight-App
 UW MSIM LastFM Visualization
 
+Google Colab Notebook: https://colab.research.google.com/drive/1eBrpRVl4QpyZjMXMVMovLK7uT0rPvaIZ?usp=sharing
 ## Goal: 
-Build a lightweight (simple) application to visualize LastFM’s top artist charts
+Build a lightweight (simple) application to visualize LastFM’s top artist charts and derive insights about countries of origin of artist
 
 ## Steps
 Create a Readme.md page using markdown to describe the Python application, including how to download, run or use. If the repository is not public, provide the grader and instructor with access to it if possible. 
@@ -13,7 +14,7 @@ Consider building upon your Information Story from G3.
 # Method
 ## LastFM API example:
 https://www.last.fm/api/show/chart.getTopArtists
-Use LastFM API to get Top Artists 
+Use LastFM API to get Top Artists
 
 Their JSON example:
 <artists page="1" perPage="50" totalPages="20" total="1000">
@@ -32,3 +33,5 @@ Their JSON example:
   </artist>
   ...
 </artists>
+
+## Need to then get data source for where artists are from to plot onto country of origin
